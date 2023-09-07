@@ -44,6 +44,20 @@
         <!-- /navbar -->
     </header>
     <?= $this->renderSection('content') ?>
+    <footer>
+        <div class="container">
+            <div class="row custom-footer">
+                <div class="col-md-8">
+                    <a href="#" class="nav-link pe-2 footer-link">© 2023 Pusat Data dan Teknologi Informasi. Kementerian Kesehatan Republik Indonesia</a>
+                </div>
+                <div class="col-md-4 custom-footer text-center" style="display:flex ; justify-content:flex-end ;">
+                    <a href="#" class="footer-link pe-2 text-center" style="text-decoration: none;">Peta Situs</a>
+                    <a href="#" class="footer-link pe-2 text-center" style="text-decoration: none;">Kebijakan Privasi</a>
+                    <a href="#" class="footer-link text-center" style="text-decoration: none;">Syarat Pengguna</a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 
