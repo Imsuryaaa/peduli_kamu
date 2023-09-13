@@ -13,7 +13,7 @@ class Pengguna extends BaseController
     }
     public function frm_registrasi()
     {
-        return view('tmbh_pengguna');
+        return view('admin/tmbh_pengguna');
     }
 
     public function save()
@@ -34,5 +34,7 @@ class Pengguna extends BaseController
             'password' => $passwordN,
             'level' => 'masyarakat'
         ]);
+
+        return view('admin/dashboard');
     }
 }

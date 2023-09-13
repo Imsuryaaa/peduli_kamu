@@ -8,4 +8,9 @@ class Pages extends BaseController
     {
         return view('home');
     }
+
+    public function dashboard()
+    {
+        return view('admin/dashboard');
+    }
 }
